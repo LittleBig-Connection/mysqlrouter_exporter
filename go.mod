@@ -1,4 +1,4 @@
-module github.com/rluisr/mysqlrouter_exporter
+module github.com/littlebig-connection/mysqlrouter_exporter
 
 go 1.24.1
 

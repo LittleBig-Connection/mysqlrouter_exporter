@@ -1,7 +1,7 @@
 # mysqlrouter_exporter
 
-[![lint](https://github.com/rluisr/mysqlrouter_exporter/actions/workflows/lint.yml/badge.svg)](https://github.com/rluisr/mysqlrouter_exporter/actions/workflows/lint.yml)
-[![release](https://github.com/rluisr/mysqlrouter_exporter/actions/workflows/release.yml/badge.svg)](https://github.com/rluisr/mysqlrouter_exporter/actions/workflows/release.yml)
+[![lint](https://github.com/littlebig-connection/mysqlrouter_exporter/actions/workflows/lint.yml/badge.svg)](https://github.com/littlebig-connection/mysqlrouter_exporter/actions/workflows/lint.yml)
+[![release](https://github.com/littlebig-connection/mysqlrouter_exporter/actions/workflows/release.yml/badge.svg)](https://github.com/littlebig-connection/mysqlrouter_exporter/actions/workflows/release.yml)
 
 ## Supported MySQL Router version
 
@@ -10,7 +10,7 @@ check [here](https://github.com/rluisr/mysqlrouter-go#supported-version)
 ## Usage
 
 1. Enable REST API on your MySQL Router [here](https://github.com/rluisr/mysqlrouter-go#supported-version)
-2. Download binary from [release](https://github.com/rluisr/mysqlrouter_exporter/releases).
+2. Download binary from [release](https://github.com/littlebig-connection/mysqlrouter_exporter/releases).
 3. Move to /usr/local/bin/
 4. Add systemd script.
 5. Start
@@ -18,7 +18,7 @@ check [here](https://github.com/rluisr/mysqlrouter-go#supported-version)
 ```
 [Unit]
 Description=mysqlrouter-exporter
-Documentation=https://github.com/rluisr/mysqlrouter-exporter
+Documentation=https://github.com/littlebig-connection/mysqlrouter-exporter
 After=network-online.target
 
 [Service]
@@ -35,10 +35,10 @@ WantedBy=multi-user.target
 ## Container
 
 ```bash
-docker pull ghcr.io/rluisr/mysqlrouter_exporter:latest
+docker pull ghcr.io/littlebig-connection/mysqlrouter_exporter:latest
 ```
 
-[Packages](https://github.com/rluisr/mysqlrouter_exporter/pkgs/container/mysqlrouter_exporter)
+[Packages](https://github.com/littlebig-connection/mysqlrouter_exporter/pkgs/container/mysqlrouter_exporter)
 
 ## Environment
 
